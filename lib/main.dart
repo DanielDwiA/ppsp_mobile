@@ -107,7 +107,7 @@ class _LoginScreenState extends State<LoginScreen> {
     } else {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
-          content: Text('Login Gagal! Username: cs, Pass: 123'),
+          content: Text('Login Gagal! '),
           backgroundColor: Colors.red,
         ),
       );
@@ -173,7 +173,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   const SizedBox(height: 10),
                   TextButton(
                     onPressed: _enterAsGuest,
-                    child: const Text('Lihat Produk & Layanan (Tamu)'),
+                    child: const Text('Lihat Produk & Layanan (Umum)'),
                   ),
                 ],
               ),
